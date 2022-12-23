@@ -1,0 +1,1 @@
+execute if score air_updating= luc.main matches 1.. run function luc:zzz/air_updating

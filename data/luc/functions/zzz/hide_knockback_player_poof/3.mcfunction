@@ -1,0 +1,1 @@
+data modify entity 6C7563-0-2-0-3 Pos[1] set value -4096d

@@ -1,0 +1,9 @@
+execute if score slot= luc.main matches 0 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.0 
+execute if score slot= luc.main matches 1 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.1 
+execute if score slot= luc.main matches 2 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.2 
+execute if score slot= luc.main matches 3 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.3 
+execute if score slot= luc.main matches 4 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.4 
+execute if score slot= luc.main matches 5 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.5 
+execute if score slot= luc.main matches 6 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.6 
+execute if score slot= luc.main matches 7 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.7 
+execute if score slot= luc.main matches 8 run item replace entity 6C7563-0-0-0-1 weapon.mainhand from entity @s hotbar.8 

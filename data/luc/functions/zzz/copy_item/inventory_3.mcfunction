@@ -1,0 +1,9 @@
+execute if score slot= luc.main matches 27 run item replace entity @s inventory.18 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 28 run item replace entity @s inventory.19 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 29 run item replace entity @s inventory.20 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 30 run item replace entity @s inventory.21 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 31 run item replace entity @s inventory.22 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 32 run item replace entity @s inventory.23 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 33 run item replace entity @s inventory.24 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 34 run item replace entity @s inventory.25 from entity 6C7563-0-0-0-1 weapon.mainhand
+execute if score slot= luc.main matches 35 run item replace entity @s inventory.26 from entity 6C7563-0-0-0-1 weapon.mainhand
