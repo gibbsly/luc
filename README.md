@@ -11,7 +11,7 @@ Parameters are input by putting the desired values in a storage with the name of
 **Description:** This tags an entity to receive an air update for 3 ticks. This is useful to force the client to visually update the motion of things like items or falling blocks that sometimes take a while to move after having motion applied to them. 
 
 ### `luc:apply_gravity`
-**Description:** This function converts the block at the execution position into a falling block, all data and blockstates are lost because I don't care ??
+**Description:** This function converts the block at the execution position into a falling block, all data and blockstates are lost because I don't care :)
 
 ### `luc:delete_mob` / `luc:clean_delete_mob`
 **Description:** These 2 functions both remove a mob without the death animation. `clean_delete_mob` removes a mob without the `poof` particles that usually appear when you delete a mob with a merge command.
