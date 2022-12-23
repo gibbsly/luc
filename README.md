@@ -24,19 +24,26 @@ Parameters are input by putting the desired values in a storage with the name of
 
 ### `luc:random_firework`
 **Description:** This function summons a firework rocket with a random shape and color.
+
 **Parameters:** 
  > `duration` - the amount of time in ticks before the firework explodes (default: `0`)
 
 ### `luc:launch`
 **Description:** Applies motion in the direction of the execution context with the specified `power` value
+
 **Parameters:**
  > `power` - The amount of motion to apply in blocks/tick (default: `1`)
 
 ### `luc:modify_slot`
 **Description:** This function modifies the item in a players inventory with the specified `Slot` value. If no item exists in the specified slot but you specify a valid item object it will place the item specified into the slot specified.
+
 **Parameters:** 
  > `Slot` - the inventory slot you want to modify (required)
+ >
  > `id` - the `minecraft:<id>` id to override the specified `Slot` with
+ >
  > `Count` - the Count to override the specified `Slot` with
+ >
  > `tag` - a tag object to be merge with the currently existing `tag` object
+ >
  > `override_tag` - if this value exists the currently existing `tag` object will be removed before applying any provided new tag object, if no new tag object is provided it will remove the tag object.
