@@ -32,10 +32,20 @@ Parameters are input by putting the desired values in a storage with the name of
  > `duration` - the amount of time in ticks before the firework explodes (default: `0`)
 
 ### `luc:launch`
-**Description:** Applies motion in the direction of the execution context with the specified `power` value
+**Description:** Applies motion in the direction of the execution context with the specified `power` value.
 
 **Parameters:**
  > `power` - The amount of motion to apply in blocks/tick (default: `1`)
+
+### `luc:has_empty_slot`
+**Description:** This function tells you if the player it is executed on has any empty inventory slots.
+
+**Output:**
+ > `true` - set to `1b` if there is an available slot, else it does not exist (note: this is formatted in this way so `execute if data storage luc:has_empty_slot (true|false)` is valid)
+ >
+ > `false` - set to `1b` if there is no available slot, else it does not exist
+ >
+ > `Slot` - if `true` then this is set to the number of the first available slot. Does not exist if there are no available slots
 
 ### `luc:modify_slot`
 **Description:** This function modifies the item in a players inventory with the specified `Slot` value. If no item exists in the specified slot but you specify a valid item object it will place the item specified into the slot specified.
