@@ -60,3 +60,9 @@ Parameters are input by putting the desired values in a storage with the name of
  > `tag` - a tag object to be merge with the currently existing `tag` object
  >
  > `override_tag` - if this value exists the currently existing `tag` object will be removed before applying any provided new tag object, if no new tag object is provided it will remove the tag object.
+ 
+### `luc:modify_items`
+**Description:** This function takes and array of items formatted identically to the format used in `luc:modify_slot` and edits all items in the array.
+
+**Parameters:**
+ > `items` - an array of items formatted identically to the format used in `luc:modify_slot`
