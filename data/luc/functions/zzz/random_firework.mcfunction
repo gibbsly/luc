@@ -6,6 +6,5 @@ execute store result entity @s FireworksItem.tag.Fireworks.Explosions[0].Type by
 execute store result entity @s Rotation[0] float 1 run data get storage luc:temp uuid[3]
 tag @s remove luc.rocket
 
-execute if data storage luc:random_firework duration run data modify entity @s LifeTime set from storage luc:random_firework duration
-execute if data storage luc:random_firework duration run data modify entity @s Life set value 0
-data remove storage luc:random_firework duration
+$data modify entity @s LifeTime set value $(duration)
+$execute unless score 0 luc.num matches $(duration) run data modify entity @s Life set value 0

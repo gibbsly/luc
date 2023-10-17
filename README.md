@@ -5,8 +5,6 @@ This is a mixed library with some commands and functions that I use regularly, b
 ## Commands
 All commands here need to be run with the execution context of the mob/player you want to effect.
 
-Parameters are input by putting the desired values in a storage with the name of the function.
-
 ### `luc:air_update`
 **Description:** This tags an entity to receive an air update for 3 ticks. This is useful to force the client to visually update the motion of things like items or falling blocks that sometimes take a while to move after having motion applied to them. 
 
@@ -17,10 +15,10 @@ Parameters are input by putting the desired values in a storage with the name of
 **Description:** These 2 functions both remove a mob without the death animation. `clean_delete_mob` removes a mob without the `poof` particles that usually appear when you delete a mob with a merge command.
 
 ### `luc:hurt_mob` / `luc:hurt_player`
-**Description:** These 2 functions visually cause a player or mob to look like they took damage without actually causing any damage. This does not work on the ender dragon.
+**Description:** These 2 functions visually cause a player or mob to look like they took damage without actually causing any damage. This does not work on the ender dragon. Mostly obsolete now with the damage command.
 
 ### `luc:knockback_player`
-**Description:** This function knocks a player back similarly to how being hit with an arrow or by a melee attack would. This uses the rotation context of the execution of the function to apply knockback.
+**Description:** This function knocks a player back similarly to how being hit with an arrow or by a melee attack would. This uses the rotation context of the execution of the function to apply knockback. Mostly obsolete now with the damage command.
 
 ### `luc:prng` / `luc:rng`
 **Description:** This function returns a random number to the score `rng= luc.main`. `prng` is a pseudorandom number generator with a period of 2^32 and `rng` uses the UUID of a summoned area effect cloud to grab a random number.
@@ -28,14 +26,14 @@ Parameters are input by putting the desired values in a storage with the name of
 ### `luc:random_firework`
 **Description:** This function summons a firework rocket with a random shape and color.
 
-**Parameters:** 
- > `duration` - the amount of time in ticks before the firework explodes (default: `0`)
+**Parameters: (function variable)** 
+ > `duration` - the amount of time in ticks before the firework explodes 
 
 ### `luc:launch`
 **Description:** Applies motion in the direction of the execution context with the specified `power` value.
 
-**Parameters:**
- > `power` - The amount of motion to apply in blocks/tick (default: `1`)
+**Parameters: (function variable)**
+ > `power` - The amount of motion to apply in blocks/tick
 
 ### `luc:has_empty_slot`
 **Description:** This function tells you if the player it is executed on has any empty inventory slots.
@@ -46,6 +44,9 @@ Parameters are input by putting the desired values in a storage with the name of
  > `false` - set to `1b` if there is no available slot, else it does not exist
  >
  > `Slot` - if `true` then this is set to the number of the first available slot. Does not exist if there are no available slots
+
+## Special Commands:
+For these last 2 functions, parameters are input by putting the desired values in a storage with the name of the function.
 
 ### `luc:modify_slot`
 **Description:** This function modifies the item in a players inventory with the specified `Slot` value. If no item exists in the specified slot but you specify a valid item object it will place the item specified into the slot specified.
