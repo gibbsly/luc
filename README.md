@@ -15,11 +15,15 @@ All commands here need to be run with the execution context of the mob/player yo
 **Description:** This function applies a random effect to the current entity.
 
 **Parameters: (function variable)**
-> `min_duration` - the minimum effect duration to apply in seconds
-> `max_duration` - the maximum effect duration to apply in seconds
-> `min_amplifier` - the minimum amplifier to apply
-> `max_amplifier` - the maximum amplifier to apply
-> `hide_particles` - <true/false> whether or not to hide the particles created by this effect
+ > `min_duration` - the minimum effect duration to apply in seconds
+ >
+ > `max_duration` - the maximum effect duration to apply in seconds
+ >
+ > `min_amplifier` - the minimum amplifier to apply
+ >
+ > `max_amplifier` - the maximum amplifier to apply
+ >
+ > `hide_particles` - <true/false> whether or not to hide the particles created by this effect
 
 ### `luc:delete_mob` / `luc:clean_delete_mob`
 **Description:** These 2 functions both remove a mob without the death animation. `clean_delete_mob` removes a mob without the `poof` particles that usually appear when you delete a mob with a merge command.
