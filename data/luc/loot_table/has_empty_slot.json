@@ -9,7 +9,7 @@
 					"name": "minecraft:debug_stick",
 					"functions": [
 						{
-							"function": "minecraft:set_nbt",
+							"function": "minecraft:set_custom_data",
 							"tag": "{\"luc:has_empty_slot\":1b}"
 						}
 					]

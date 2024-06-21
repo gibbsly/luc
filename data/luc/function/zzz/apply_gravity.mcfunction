@@ -334,7 +334,7 @@ execute if block ~ ~ ~ granite run summon falling_block ~ ~ ~ {BlockState:{Name:
 execute if block ~ ~ ~ granite_slab run summon falling_block ~ ~ ~ {BlockState:{Name:"granite_slab"}}
 execute if block ~ ~ ~ granite_stairs run summon falling_block ~ ~ ~ {BlockState:{Name:"granite_stairs"}}
 execute if block ~ ~ ~ granite_wall run summon falling_block ~ ~ ~ {BlockState:{Name:"granite_wall"}}
-execute if block ~ ~ ~ grass run summon falling_block ~ ~ ~ {BlockState:{Name:"grass"}}
+execute if block ~ ~ ~ short_grass run summon falling_block ~ ~ ~ {BlockState:{Name:"short_grass"}}
 execute if block ~ ~ ~ grass_block run summon falling_block ~ ~ ~ {BlockState:{Name:"grass_block"}}
 execute if block ~ ~ ~ gravel run summon falling_block ~ ~ ~ {BlockState:{Name:"gravel"}}
 execute if block ~ ~ ~ gray_banner run summon falling_block ~ ~ ~ {BlockState:{Name:"gray_banner"}}
